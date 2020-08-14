@@ -1,0 +1,111 @@
+@media (min-width: 1200px){
+html, body{font-size:16px;}
+h1, h2, h3, h4, h5, h6 {padding:0;line-height: normal;color:#006699; font-family: 'ralewaybold';}
+h1{font-size:30px;margin:0 0 5px 0;}
+h2{font-size:23px;margin:0;}
+h3{font-size:19px;margin:0;}
+h4< h5, h6{font-size:19px;margin:0;}	
+.logo a{background:url(../images/logo.png) top center no-repeat; width:235px;height:46px;}
+.top-navigation{margin-left:0px;margin-top:60px;}
+.header-contact h5{padding-top:40px;}
+.header-contact{padding-left:50px;}
+a.live-chat{width:122px;margin-right:33px;}
+.header-phone{padding-left:20px;}
+ul.nav li{margin-right:22px;}
+.header-contact h5{font-size:13px;}
+.header-phone{width:145px;text-align:right;padding-left:20px;}
+.content-box-left,
+.content-box-right{width:600px;}
+.content-box-right h6{font-size:135px;}
+.content-box-left h5, .content-box-right h5{font-size:38px;}
+.content-box-left p, .content-box-right p{font-size:15px;line-height:23px;}
+ul.features-list li h5{fon-size:31px;}
+ul.features-list li p{font-size:15px;}
+.our-clients-text h5{font-size:36px;}
+.our-clients-text p{font-size:16px;}
+ul.clients-list li{margin-top:20px;}
+ul.reviews-list li .reviews-box p{font-size:15px;}
+#bottom-box h5 {font-size: 35px;}
+#bottom-box p {font-size: 19px;}
+.mark {bottom: 173px;left: 615px;}
+.footer-right h5{font-size:19px;}
+ul.footer-nav li a{font-size:17px;}
+a.back{font-size:13px;}
+.copyright{font-size:15px;}
+.top-navigation  .navbar-default .navbar-nav > li{list-style:none;margin-right:20px;}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+.top-header{height:120px;}
+.logo a{background:url(../images/logo-small.png) top center no-repeat; width:150px;height:26px;margin-top:50px;}
+
+.top-navigation  .navbar-default .navbar-nav > li > a{font-size:14px;}
+.header-contact h5{font-size:12px;text-align:center;}
+.header-phone{border:none;}
+.top-navigation{margin-top:40px;}
+.header-contact{height: 120px;}
+.header-contact h5{padding-top:15px;margin-bottom:15px;}
+ul.features-list li{margin-bottom:80px;}
+ul.features-list li:last-child{margin-bottom:0px;}
+ul.reviews-list li{margin-bottom:80px;}
+ul.reviews-list li:last-child{margin-bottom:0px;}
+#bottom-box h5{font-size:34px;text-align:center;}
+#bottom-box p{font-size:17px;text-align:center;margin-bottom:30px;}
+#bottom-box a.plans{margin:0 auto;}
+.mark{left:405px;font-size:16px;bottom:155px;}
+.footer-right h5{font-size:17px;}
+ul.footer-nav li a{font-size:15px;}
+a.back{font-size:11px;}
+.copyright{font-size:13px;}]
+.our-clients-text p{font-size:15px;}
+.our-clients-text h5{font-size:34px;}
+.header-inner-center h5{font-size:39px;}
+.header-inner-center h6{font-size:29px;}
+.content-box-left h5, .content-box-right h5{font-size:35px;}
+.content-box-left p, .content-box-right p{font-size:13px;}
+.features-title h5{font-size:47px;}
+.features-title h6{font-size:23px;}
+.features-title h6{font-size:29px;}
+}
+
+@media only screen and (max-width: 767px) and (min-width: 319px){
+.top-header{height:100px;}
+.logo a{margin-top:35px;}
+.navbar{}
+.navbar-default{background:#fff;border:none;margin-top:35px;}
+.navbar-collapse{border-top:none;padding:0px;}
+ul.nav li a{font-size:14px;text-align:center;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{background:none;}
+.logo a{background:url(../images/logo-mini.png) top center no-repeat; width:120px;height:17px;margin-top:40px;}
+.navbar-toggle{margin:0 auto;float:none;left:50%;margin-left:-22px;}
+.navbar-default .navbar-nav > li > a{color:#202242;font-size:14px;transition: all 0.3s;
+-moz-transition: all 0.3s;
+-webkit-transition: all 0.3s;}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.active > a:hover{color:#ffe13e;}
+.top-header ul.nav{margin-top:27px;}
+.header-contact{height:100px;}
+.header-contact{padding-left:0px;text-align:center;}
+.header-contact h5{padding-top:15px;margin:0 0 15px 0;}
+.header-phone,
+.header-phone a{border:none;padding-left:0px;width:60px;font-size:10px;display:block;margin:0px;}
+.header-phone a{padding-top:30px;}
+ul.features-list li{margin-bottom:60px;}
+ul.features-list li:last-child{margin-bottom:0px;}
+.our-clients-text{text-align:center;}
+ul.reviews-list li{margin-bottom:60px;}
+ul.reviews-list li:last-child{margin-bottom:0px;}
+#bottom-box h5,
+#bottom-box p{text-align:center;}
+#bottom-box p{margin-bottom:20px;}
+#bottom-box a.plans{margin:0 auto;}
+.top-navigation{margin-top:0px;}
+.top-header .navbar-header{margin-top:25px;}
+.top-navigation .collapse.navbar-collapse{background:#fff;padding-bottom:10px;}
+.mark{width:246px;background:url(../images/ico-mark-small.png) top right no-repeat;position:absolute;height:51px;padding:0 0 0 50px;color:#fff;font-size:15px;font-family: 'ralewaybold';bottom:145px;left:-10px;}
+.header-phone a {color: #202242;}
+.content-box-left{padding:345px 15px 80px 15px;float:right;}
+.content-box-right{padding:150px 15px 80px 15px;float:rleft;}
+.content-box-right h6{font-size:120px;}
+}
+
